@@ -128,3 +128,27 @@ const isNumber = (val) => typeof val === 'number' && val === val;
 const isBoolean = (val) => typeof val === 'boolean';
 
 const isString = (val) => typeof val === 'string';
+
+module.exports = {
+  equals,
+  isBoolean,
+  isNil,
+  isUndefined,
+  isNull,
+  isArrayLike,
+  isAsyncFunction,
+  isDuplexStream,
+  isEmpty,
+  isFunction,
+  isGeneratorFunction,
+  isNumber,
+  isObject,
+  isObjectLike,
+  isStream,
+  isReadableStream,
+  isWritableStream,
+  isValidJSON,
+  isSymbol,
+  isString,
+  isPromiseLike
+}
