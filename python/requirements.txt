@@ -1,0 +1,6 @@
+ffmpeg==1.4
+numpy==2.2.5
+opencv-python==4.11.0.86
+pillow==11.2.1
+setuptools==78.1.1
+wheel==0.45.1
