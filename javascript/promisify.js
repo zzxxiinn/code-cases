@@ -8,10 +8,12 @@
  * delay(2000).then(() => console.log('Hi!')); // Promise resolves after 2s
  */
 
-const promisify = func => {
+const promisify = (func) => {
   return (...args) => {
     return new Promise((resolve, reject) => {
-      return func(...args, (err, result) => err ? reject(err) : resolve(result))
-    })
-  }
-}
+      return func(...args, (err, result) =>
+        err ? reject(err) : resolve(result)
+      );
+    });
+  };
+};
